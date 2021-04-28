@@ -1,15 +1,15 @@
-define(['jquery'],function ($) {
-  function add(){
+define(['jquery','js2'],function ($,js2) {
+  function add31(x,y){
 
-    let z = add21(2,3);
+    let z = js2. add21(x,y);
 
     let divText = $('#btnSHow')[0].id;
     console.log(z);
     console.log(divText);
+    return z;
   };
 
   return {
-    add:add
+    add31:add31
   }
-
-})
+});
